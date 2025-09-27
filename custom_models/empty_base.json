@@ -1,0 +1,10 @@
+{
+  "speed": [
+    { "if": "true", "multiply_by": 1.0 }
+  ],
+  "priority": [
+    { "if": "true", "multiply_by": 1.0 }
+  ],
+  "distance_influence": 70
+}
+

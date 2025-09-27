@@ -1,0 +1,12 @@
+# Ignore GraphHopper generated cache
+graph-cache/
+
+# Ignore logs
+logs/
+
+# Ignore large OSM map files
+*.osm.pbf
+
+# Optional: ignore temp files
+*.log
+*.tmp

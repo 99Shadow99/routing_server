@@ -1,0 +1,13 @@
+
+{
+  "speed": [
+    { "if": "in_area:zone_high_1 == true", "multiply_by": 0.01 },
+    { "if": "in_area:zone_med_1 == true",  "multiply_by": 0.5  }
+  ],
+  "priority": [
+    { "if": "in_area:zone_high_1 == true", "multiply_by": 0.05 },
+    { "if": "in_area:zone_med_1 == true",  "multiply_by": 0.5  },
+    { "if": "road_environment == TUNNEL",   "multiply_by": 0.2  }
+  ],
+  "distance_influence": 100.0
+}
